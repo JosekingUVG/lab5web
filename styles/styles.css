@@ -1,0 +1,18 @@
+.hidden{
+  display:none;
+}
+
+header{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:10px;
+}
+
+.search-container{
+  margin:20px 0;
+}
+
+#postsContainer{
+  margin-top:20px;
+}
