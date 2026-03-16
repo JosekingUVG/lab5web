@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Mini Blog</title>
+
+  <link rel="stylesheet" href="../styles/styles.css">
+</head>
+
+<body>
+
+  <!-- HEADER -->
+  <header>
+
+    <button id="homeBtn">Home</button>
+
+    <h1>Mini Blog</h1>
+
+    <button id="createBtn">Crear</button>
+
+  </header>
+
+
+  <!-- SECTION HOME -->
+  <section id="homeSection">
+
+    <!-- BUSCADOR -->
+    <div class="search-container">
+
+      <input 
+        type="text"
+        id="searchInput"
+        placeholder="Buscar posts..."
+      >
+
+      <button id="searchBtn">Buscar</button>
+
+    </div>
+
+
+    <!-- UI STATES -->
+
+    <div id="idleState">
+      Escribe algo para buscar posts o carga los posts.
+    </div>
+
+    <div id="loadingState" class="hidden">
+      Loading posts...
+    </div>
+
+    <div id="emptyState" class="hidden">
+      No posts found.
+    </div>
+
+    <div id="errorState" class="hidden">
+      Error loading posts.
+      <button id="retryBtn">Retry</button>
+    </div>
+
+
+    <!-- LISTA DE POSTS -->
+
+    <div id="postsContainer">
+
+      <!-- aquí JS insertará posts -->
+
+    </div>
+
+  </section>
+
+
+  <!-- SECTION CREATE -->
+
+  <section id="createSection" class="hidden">
+
+    <h2>Crear Post</h2>
+
+    <form id="createPostForm">
+
+      <label>Title</label>
+      <input
+        type="text"
+        id="titleInput"
+        required
+      >
+
+      <label>Body</label>
+      <textarea
+        id="bodyInput"
+        required
+      ></textarea>
+
+      <label>User ID</label>
+      <input
+        type="number"
+        id="userIdInput"
+        required
+      >
+
+      <button type="submit">
+        Crear Post
+      </button>
+
+    </form>
+
+  </section>
+
+
+  <!-- JS -->
+  <script src="../js/main.js"></script>
+
+</body>
+</html>
