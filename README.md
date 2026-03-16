@@ -10,7 +10,7 @@ Este laboratorio consiste en desarrollar una **Mini Blog Web Application** utili
 
 
 ```
-[PEGAR AQUÍ EL ENLACE DEL VIDEO]
+https://josekinguvg.github.io/lab5web/HTML/
 ```
 
 
