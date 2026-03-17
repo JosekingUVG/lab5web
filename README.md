@@ -21,7 +21,7 @@ https://josekinguvg.github.io/lab5web/HTML/
 Video demostración del funcionamiento de la aplicación:
 
 ```
-[PEGAR AQUÍ EL ENLACE DEL VIDEO]
+https://www.youtube.com/watch?v=G458sjQAR6w
 ```
 
 ---
